@@ -52,6 +52,7 @@ set cert_path /certs
 set cert_pwd password
 set cert_label my_cert-2020-08-03
 #This is the label that will appear in the managment gui (Set to either cert start/end date)
+#Use cat fullchain.pem | openssl x509 -noout -enddate | cut -d"=" -f2 | xargs -0 date +'%Y-%m-%d' -d 
 
 set timestamp [timestamp -format %Y-%m-%d_%H-%M-%S]
 set saved_running_config /aruba/aruba-$timestamp.txt
