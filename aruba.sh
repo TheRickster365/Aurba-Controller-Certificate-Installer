@@ -51,6 +51,7 @@ set cert_name my_cert.pfx
 set cert_path /certs
 set cert_pwd password
 set cert_label my_cert-2020-08-03
+#This is the label that will appear in the managment gui (Set to either cert start/end date)
 
 set timestamp [timestamp -format %Y-%m-%d_%H-%M-%S]
 set saved_running_config /aruba/aruba-$timestamp.txt
