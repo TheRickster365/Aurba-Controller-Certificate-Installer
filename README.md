@@ -1,3 +1,4 @@
+<pre>
 # Aurba-Controller-Certificate-Installer
 Upload a HTTPS certificate to an Aruba 3200 Mobility Controller via SSH command line
 
@@ -22,3 +23,4 @@ https://aventistech.com/kb/replace-default-ssl-cert-in-aruba-instant-ap/
 
 Cheers
 Rick
+</pre>
